@@ -13,7 +13,7 @@ def create_qr_code(url, filename):
     img = qr.make_image(fill_color="white", back_color="black")
     img.save(filename)
 
-# Örnek kullanım
+    
 website_url = "https://github.com/burakkozturk"
 filename = "qr_code.png"
 create_qr_code(website_url, filename)
